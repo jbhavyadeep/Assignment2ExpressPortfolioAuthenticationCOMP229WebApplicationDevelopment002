@@ -1,0 +1,65 @@
+/*Custom Css goes here*/
+/**
+ * File Name: Assingment 1 Portfolio
+ * Name: Bhavyadeep Jagani
+ * Student ID: 301234500
+ * Date: 06 Feb 2023
+ */
+
+/*for about page*/
+img {
+    border-radius: 50%;
+  }
+
+/*for projects and service page*/
+* {
+box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+float: left;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
+
+}
+
+.left {
+width: 65%;
+
+}
+
+.right {
+width: 35%;
+}
+.left1 {
+width: 35%;
+}
+
+.right1 {
+width: 65%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.back {
+background-image: url("/Assets/images/chat.jpg");
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.back1 {
+background-image: url("/Assets/images/home.png");
+height: 600px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}

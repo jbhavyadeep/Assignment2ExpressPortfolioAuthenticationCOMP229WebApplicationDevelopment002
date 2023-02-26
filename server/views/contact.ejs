@@ -1,0 +1,58 @@
+<!--/**
+ * File Name: Assingment 1 Portfolio
+ * Name: Bhavyadeep Jagani
+ * Student ID: 301234500
+ * Date: 06 Feb 2023
+ */-->
+ <%-include partials/header.ejs%>
+
+ <!--Main nav Navigation-->
+ <%-include partials/main_nav.ejs%>
+ 
+ 
+
+ <main class="back">
+   <div class="jumbotron">
+     <br>
+     <h1 class ="display-4" style="text-align: center; color: rgb(255, 255, 255);">Contact Information</h1>
+     
+   </div>
+
+   <div class="container" >
+
+    <div class="card"  style="background-color: cadetblue; text-align: center; width: 220px; margin-left: 41%;">
+      <p style="color: white;"><i class="fa-solid fa-face-smile"></i> Name: Bhavyadeep Jagani</p>
+    </div>
+    <div class="card" style="background-color: cadetblue; text-align: center; width: 275px; margin-left:38.8% ;">
+      <p style="color: white;"><i class="fa-solid fa-phone"></i> Mobile Number: (+1)437 929 8566</p>
+    </div>
+    <div class="card"  style="background-color:cadetblue ; text-align: center;width: 270px; margin-left: 38.85%;">
+      <p style="color: white;"><i class="fa-solid fa-envelope"></i> Email: jbhavyadeep@gmail.com</p>
+    </div>
+  
+  </div>
+  <h2 class ="display-6" style="color: rgb(4, 100, 100); margin-left: 50px;">Chat with me here.</h1>
+  <form NAME="myform" style="margin-left: 50px;">
+    <label for="fname" style="font-style: oblique;">Full Name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+
+    <label for="lname" style="font-style: oblique;">Mobile Number:</label><br>
+
+    <input type="text" id="mnum" name="number" value="" ><br>
+    <label for="lname" style="font-style: oblique; color: white;">Email Address:</label><br>
+    <input type="text" id="email" name="email" value=""><br>
+    <label for="lname" style="font-style: oblique; color: white;">Message</label><br>
+    <textarea id="message" rows="5" cols="30" value=""></textarea>
+    <button class="rounded" style="background-color: darkcyan; color: white; margin-left: 20px; margin-bottom: 20px;" id="button1" type="button">Send</button>
+    
+  </form>
+
+ </main>
+
+
+ <%-include partials/bottom_nav.ejs%>
+
+<!-- <h1><%= title %></h1>-->
+ <!--<p>Welcome to <%= title %></p>-->
+
+<%-include partials/footer.ejs%>

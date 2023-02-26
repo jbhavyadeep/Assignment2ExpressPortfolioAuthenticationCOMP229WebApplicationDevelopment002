@@ -1,0 +1,57 @@
+<!--/**
+ * File Name: Assingment 1 Portfolio
+ * Name: Bhavyadeep Jagani
+ * Student ID: 301234500
+ * Date: 26 Feb 2023
+ */-->
+ <!--
+  Code Taken from
+  Professor Blessing Ajiboye, COMP229 Web Application and Development
+-->
+<%-include ../partials/header.ejs%>
+<%-include ../partials/main_nav.ejs%>
+<br>
+<!--Content for the Add Page-->
+<div class="container">
+    <div class="row" style="margin-left: 20%; ">
+        <div class="offset-md-3 col-md-6">
+        <h1 style="color: darkcyan;"><%=title%></h1>
+            <form class="form" method="POST">
+                <div class="form group">
+                    <label for="nameTextField">Name</label>
+                    <input type="text" class="form control"
+                    id="nameTextField"
+                    placeholder = "Enter name of the Business Contact"
+                    name="name" required>
+                    </div>
+
+                    <div class="form group">
+                    <label for="authorTextField">Number</label>
+                    <input type="text" class="form control"
+                    id="authorTextField"
+                    placeholder = "Enter Phone number of the Business Contact"
+                    name="number" required>
+                    </div>
+                    
+                    <div class="form group">
+                    <label for="publishedTextField">Email</label>
+                    <input type="text" class="form control"
+                    id="publishedTextField"
+                    placeholder = "Enter Email Address of the Business Contact"
+                    name="email" required>
+                    </div>
+                    <br>
+                    <button class="btn" type="submit" style="background-color: darkcyan; color: white;"><i class="fas fa-edit"></i>submit</button>
+                    <a href="/updateList" class="btn" style="background-color: lightcoral; color: white;"><i class="fas fa-undo"></i>cancel</a>
+
+                    
+
+                </form>
+        </div>
+        </div>
+    </div>
+
+
+ <%-include ../partials/bottom_nav.ejs%>
+ <%-include ../partials/footer.ejs%>
+
