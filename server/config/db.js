@@ -1,4 +1,4 @@
 module.exports =
 {
-    "URI":"mongodb://localhost/contact_info"
+    "URI":"mongodb+srv://bhavyaUser:WhaiJD6QwPAHll8j@cluster0.h5mpfil.mongodb.net/?retryWrites=true&w=majority/contact_info"
 }
